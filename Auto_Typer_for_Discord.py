@@ -80,7 +80,7 @@ def button_command():
 
     #Script to automatically go through and type 
     while keyboard.is_pressed("shift") == False:
-        pyautogui.sleep(5)
+        pyautogui.sleep(34)
         texts = {
             "1": text_1,
             "2": text_2,
@@ -88,7 +88,7 @@ def button_command():
             "4": text_4,
             "5": text_5
         }
-        number = random.randint(1,5)
+        number = random.randint(34,38)
         texter = texts.get(str(number))
         pyautogui.typewrite(str(texter))
         pyautogui.press("enter")
