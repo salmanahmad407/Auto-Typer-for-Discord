@@ -88,7 +88,7 @@ def button_command():
             "4": text_4,
             "5": text_5
         }
-        number = random.randint(1,5)
+        number = random.randint(30,35)
         texter = texts.get(str(number))
         pyautogui.typewrite(str(texter))
         pyautogui.press("enter")
